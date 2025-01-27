@@ -16,6 +16,9 @@ Usage()
 
 }
 
+
+
+
 checker()
 {
     if [[ "$1" =~ ^[A-F0-9]{2}(:[A-F0-9]{2}){5}$ ]]; then # This function validates the MAC address fromat using regex patterns
